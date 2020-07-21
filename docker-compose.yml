@@ -1,0 +1,22 @@
+version: '3.6'
+
+volumes:
+  data: {}
+  logs: {}
+  config: {}
+
+services:
+
+  srv:
+    image: ulm0/gitlab:latest
+    container_name: gitlab
+    restart: always
+    ports:
+      - 443:443/tcp
+      - 222:22/tcp
+    volumes:
+      - config:/etc/gitlab
+      - logs:/var/log/gitlab
+      - data:/var/opt/gitlab
+
+
