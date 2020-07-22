@@ -12,6 +12,7 @@ cp docker-compose.override.example to docker-compose.override.yml
 docker-compose up -d
 
 5. You need to wait 15m and you can try to open https://YOUR_GITLAB/
+
 222 is port for gitlab ssh.
 
 ## NOTE
