@@ -5,7 +5,7 @@ services:
     hostname: 'GIT.SITE.COM'
     environment:
       GITLAB_OMNIBUS_CONFIG: |
-        external_url "https://git.art-sys.ru"
+        external_url "https://GIT.SITE.COM"
         gitlab_rails['time_zone'] = 'Europe/Berlin'
         gitlab_rails['gitlab_shell_ssh_port'] = 22
         letsencrypt['enable'] = true
