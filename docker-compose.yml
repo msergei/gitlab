@@ -8,7 +8,7 @@ volumes:
 services:
 
   srv:
-    image: ulm0/gitlab:latest
+    image: ulm0/gitlab:13.2.6
     container_name: gitlab
     restart: always
     ports:

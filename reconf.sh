@@ -1,4 +1,4 @@
 #!/bin/bash
 
-docker-compose exec web gitlab-ctl reconfigure
+docker-compose exec srv gitlab-ctl reconfigure
 
