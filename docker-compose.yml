@@ -8,8 +8,9 @@ volumes:
 services:
 
   srv:
-    image: ulm0/gitlab:13.2.6
+    image: ulm0/gitlab:13.10.0
     container_name: gitlab
+    privileged: true
     restart: always
     ports:
       - 443:443/tcp
